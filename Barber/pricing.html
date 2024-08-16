@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Pricing</h1>
+  <ul>
+    {% for service in services %}
+      <li>{{ service.name }} - {{ service.price }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

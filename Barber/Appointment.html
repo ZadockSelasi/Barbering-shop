@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="/book">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="text" name="phone" placeholder="Your Phone" required>
+        <select name="service">
+            <option value="Hair Cutting">Hair Cutting</option>
+            <option value="Shaving">Shaving</option>
+            <option value="Body Massage">Body Massage</option>
+        </select>
+        <input type="datetime-local" name="date" required>
+        <button type="submit">Book Appointment</button>
+    </form>
+    
+</body>
+</html>
